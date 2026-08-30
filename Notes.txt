@@ -1,0 +1,8 @@
+-- Creating virtual environment --
+python -m venv venv     //we can prevent from version conflict
+Virtual environment se har project ka apna isolated setup hota hai
+
+To activate this venv ->
+venv\Scripts\activate - windows 
+source venv/bin/activate - mac/linux
+
