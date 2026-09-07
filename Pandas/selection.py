@@ -13,3 +13,9 @@ print(df["Weight"].to_string())
 print(df)
 
 print(df.loc["Pikachu"])
+
+print(df.loc["Charizard":"Blastoise", ["Height", "Weight"]])
+
+print(df.iloc[0:11])
+print(df.iloc[0:11:2]) # for every 2nd row
+print(df.iloc[0:11:2, 0:3]) # for every 2nd row and col selection too
